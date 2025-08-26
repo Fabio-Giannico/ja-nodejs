@@ -5,5 +5,5 @@ test('greets the user by name', () => {
 });
 
 test('newExampleGreeting returns the correct message', () => {
-  expect(newExampleGreeting()).toBe('This function was created by Fabio G.');
+  expect(newExampleGreeting()).toBe('This function was created by Fabio');
 });
