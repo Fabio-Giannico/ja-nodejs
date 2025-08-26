@@ -2,4 +2,8 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 
-module.exports = greet;
+function newExampleGreeting(){
+  return "This function was created by Fabio";
+}
+
+module.exports = { greet, newExampleGreeting };
